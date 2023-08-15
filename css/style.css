@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* MOBILE FIRST */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff ;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-color: #001d3d;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+/* CONTENEDOR LOGO Y NOMBRE */
+.logo-container{
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-container img{
+    width: 70%;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+.name-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name-container h1{
+    color: #fb5607;
+}
+.name-container h2{
+    color: #fb5607;
+}
+/* SOBRE MI CONTAINER */
+.sobre-mi-container{
+    padding: 1em;
+}
+.sobre-mi-container p{
+    font-size: 1.2em;
+}
+/* CONTENEDOR TECNOLOGIAS */
+.tecnologias-container{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tecnologias-container ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-tecnologias{
+    width: 25vw;
+}
+/* CONTENDOR DE LINKS */
+.links-container{
+    padding: 1em;
+    width: 100%;
+    display: flex;
+}
+.links-container ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
