@@ -1,0 +1,61 @@
+/* Consulta de medios para pantallas de escritorio */
+@media (min-width: 768px) {
+    body{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    main{
+        background-color: #001d3d;
+        border: solid 2px #fff;
+        border-radius: 1em;
+        flex-direction: row;
+        height: 65%;
+        width: 70%;
+    }
+    /* CONTENEDOR LOGO Y NOMBRE */
+    .logo-container{
+        border-radius: 1em 0 0 1em;
+        background-color: #00296b;
+        width: 40%;
+        height: 100%;
+        gap: 1em 0;
+        justify-content: center;
+    }
+    .logo-container img{
+        width: 70%;
+    }
+    /* CONTENEDOR DE CONTENEDORES */
+    .container-de-contenedores{ 
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    /* SOBRE MI CONTAINER */
+    .sobre-mi-container{
+        width: 100%;
+        padding: 1em 1em 0 1em;
+    }
+    /* TECNOLOGIAS CONTAINER */
+    .tecnologias-container{
+        padding: 0 1em;
+    }
+    .tecnologias-container h2{
+        padding: 1em 0;
+    }
+    .tecnologias-container li{
+        width: 10%;
+    }
+    .logo-tecnologias{
+        width: 100%;
+    }
+    /* LINKS CONTAINER */
+    .links-container{
+        padding: 1em;
+    }
+  }
